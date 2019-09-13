@@ -4,7 +4,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import itertools
 from tensorflow.examples.tutorials.mnist import input_data
-from keras.layers.normalization import BatchNormalization
+from tensorflow.python.keras.layers.normalization import BatchNormalization
 #mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 mnist = tf.keras.datasets.mnist
 
